@@ -9,62 +9,71 @@ namespace ConsoleApp1
         static void Main()
         {
             // Калькулятор на ифах 
+
             /*
-            double a, b, result;
-            string operation;
-            Console.WriteLine("Это калькулятор, пидор");
-            Console.WriteLine("Введи первое число");
-            a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введи + - * /");
-            operation = Console.ReadLine();
-            Console.WriteLine("Введи второе число");
-            b = double.Parse(Console.ReadLine());
-
-            result = 0;                                                   // ИНИЦИАЛИЗАЦИЯ - нельзя оставлять переменные неприсвоенными, если что-то с ними делать собираешься (также можно поставить в дефолт)
-
-            if (operation == "+")
+            while (true)
             {
-            result = a + b;                                               // Можно прописать действие в writeline, тогда не нужна переменная result !!!
-            }
-            else
-            {
-                if (operation == "-")
+                Console.Clear();
+                double a, b;
+                string operation;
+                try
                 {
-                    result = a - b;
+                    Console.WriteLine("Это калькулятор, пидор");
+                    Console.WriteLine("Введи первое число");
+                    a = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Введи + - * /");
+                    operation = Console.ReadLine();
+                    Console.WriteLine("Введи второе число");
+                    b = double.Parse(Console.ReadLine());
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine("Долбоёб, вводи числа правильно");
+                    Console.ReadLine();
+                    continue;
+                }
+
+                if (operation == "+")
+                {
+                    Console.WriteLine("Результат:");
+                    Console.WriteLine(a + b);
                 }
                 else
                 {
-                    if (operation == "*")
+                    if (operation == "-")
                     {
-                        result = a * b;
+                        Console.WriteLine("Результат:");
+                        Console.WriteLine(a - b);
                     }
                     else
                     {
-                        if (operation == "/")
+                        if (operation == "*")
                         {
-                            if (b == 0)
-                            {
-                                Console.WriteLine("Делить на 0 нельзя");
-                            }
-                            else
-                            {
-                                result = a / b;
-                            }
+                            Console.WriteLine("Результат:");
+                            Console.WriteLine(a * b);
                         }
                         else
-                            Console.WriteLine("Ошибка");
+                        {
+                            if (operation == "/")
+                            {
+                                if (b == 0)
+                                {
+                                    Console.WriteLine("Делить на 0 нельзя");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Результат:");
+                                    Console.WriteLine(a / b);
+                                }
+                            }
+                            else
+                                Console.WriteLine("Ошибка при вводе знака");
+                        }
                     }
                 }
-                                                          
+                Console.ReadLine();
             }
-
-
-            if (result != 0)
-            {
-                Console.WriteLine("Результат:");
-                Console.WriteLine(result);
-            }
-            */
+              */          
 
 
 
@@ -73,7 +82,7 @@ namespace ConsoleApp1
 
 
             // Калькулятор на свитче
-
+            
             while (true)
             {
                 Console.Clear();
@@ -121,8 +130,10 @@ namespace ConsoleApp1
                         if (b == 0)                                            //  Если под if или else одна строка, можно не ставить фигурные скобки
                             Console.WriteLine("Делить на 0 нельзя");
                         else
+                        {
                             Console.WriteLine("Результат:");
                             Console.WriteLine(a / b);
+                        }
                         break;
 
                     default:
@@ -132,6 +143,7 @@ namespace ConsoleApp1
 
                Console.ReadLine();
             }
+            
 
         }
                     

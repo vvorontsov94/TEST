@@ -13,16 +13,35 @@ namespace Проверка_на_четность
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Проверка числа на четность");
-            Console.WriteLine("Введите число");
-            int chislo = int.Parse(Console.ReadLine());
-            if (chislo % 2 == 0)
-                {
-                Console.WriteLine("Введенное число " + chislo + " является четным");
-            }
-            else
+            while (true)
             {
-                Console.WriteLine("Введенное число " + chislo + " является нечетным");
+                Console.Clear();
+                int chislo;
+                Console.WriteLine("Проверка числа на четность");
+                Console.WriteLine("Введите число");
+
+                try
+                {
+                    chislo = int.Parse(Console.ReadLine());
+                }
+
+                catch(Exception)
+                {
+                    Console.WriteLine("Вводи число правильно");
+                    Console.ReadLine();
+                    continue;
+                }
+
+
+                if (chislo % 2 == 0)
+                {
+                    Console.WriteLine("Введенное число " + chislo + " является четным");
+                }
+                else
+                {
+                    Console.WriteLine("Введенное число " + chislo + " является нечетным");
+                }
+                Console.ReadLine();
             }
         }
     }
