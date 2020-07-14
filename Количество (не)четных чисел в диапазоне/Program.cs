@@ -23,7 +23,7 @@ namespace Количество__не_четных_чисел_в_диапазон
                     Console.WriteLine("Определение количества четных и нечетных чисел в введенном диапазоне");
                     Console.WriteLine("Введи начало диапазона целых чисел");
                     nachalo = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Введи начало диапазона целых чисел");
+                    Console.WriteLine("Введи конец диапазона целых чисел");
                     konec = int.Parse(Console.ReadLine());
                 }
 
@@ -48,7 +48,6 @@ namespace Количество__не_четных_чисел_в_диапазон
                         countNECHET++;
                     }
                     nachalo++;
-
                 }
 
                 Console.WriteLine("Количество четных чисел в диапазоне");
