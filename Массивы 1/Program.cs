@@ -16,29 +16,26 @@ namespace Массивы_1
                 sum = 0;
                 int[] MYarray;
 
+                Console.Clear();
                 Console.WriteLine("Введи размер массива");
-                Console.WriteLine();
-
+                
                 try
                 {
                     n = int.Parse(Console.ReadLine());
-
+                    Console.WriteLine();
                     MYarray = new int[n];
-
                     for (int i = 0; i < n; i++)
                     {
                         Console.WriteLine("Введи элемент " + i + " массива");
                         MYarray[i] = int.Parse(Console.ReadLine());
                     }
-
                 }
 
                 catch(Exception)
                 {
-                    Console.WriteLine("ЗАЛУПА");
+                    Console.WriteLine("Вводи числа правильно");
                     Console.ReadLine();
                     continue;
-
                 }
 
 
@@ -62,7 +59,7 @@ namespace Массивы_1
                 {
                     if (MYarray[i] % 2 == 0)
                     {
-                        sum = sum + MYarray[i];
+                        sum += MYarray[i];
                     }
                 }
                 Console.WriteLine("Сумма четных чисел в массиве: " + sum);
