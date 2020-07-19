@@ -63,6 +63,7 @@ namespace Массивы_1
                     }
                 }
                 Console.WriteLine("Сумма четных чисел в массиве: " + sum);
+                Console.WriteLine(MYarray.Where(i => i % 2 == 0).Sum());
 
                 Console.WriteLine();
                 min = MYarray[0];
@@ -74,6 +75,17 @@ namespace Массивы_1
                     }
                 }
                 Console.WriteLine("Минимальный элемент массива: " + min);
+                Console.WriteLine(MYarray.Min());
+
+                Console.WriteLine();
+                Console.WriteLine("Сортировка по возрастанию");
+                int[] newsort = MYarray.OrderBy(i => i).ToArray();
+                Console.WriteLine("Вывод отсортированного массива");
+                for (int i = 0; i < n; i++)
+                {
+                    Console.WriteLine("Элемент " + i + ": " + newsort[i]);
+                }
+
 
                 Console.ReadLine();
 
