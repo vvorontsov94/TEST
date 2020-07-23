@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Треугольники (�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Массивы 1", "Массивы 1\Массивы 1.csproj", "{02844C12-4455-41F4-9DA8-08D60D443AAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы", "Методы\Методы.csproj", "{D9162A32-AB9C-4065-8B46-53583920E740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы 2", "Методы 2\Методы 2.csproj", "{D7DFA7C6-106D-4AF3-ABA7-6AA836B2C9A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{02844C12-4455-41F4-9DA8-08D60D443AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02844C12-4455-41F4-9DA8-08D60D443AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02844C12-4455-41F4-9DA8-08D60D443AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9162A32-AB9C-4065-8B46-53583920E740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9162A32-AB9C-4065-8B46-53583920E740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9162A32-AB9C-4065-8B46-53583920E740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9162A32-AB9C-4065-8B46-53583920E740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DFA7C6-106D-4AF3-ABA7-6AA836B2C9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DFA7C6-106D-4AF3-ABA7-6AA836B2C9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DFA7C6-106D-4AF3-ABA7-6AA836B2C9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DFA7C6-106D-4AF3-ABA7-6AA836B2C9A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
