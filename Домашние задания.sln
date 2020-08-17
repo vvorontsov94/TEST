@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REF 2", "REF 2\REF 2.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REF3", "REF3\REF3.csproj", "{F19F62F9-1ABC-42E0-9E26-A34444D6484D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Рекурсия", "Рекурсия 2\Рекурсия.csproj", "{72B7FE27-CB24-43B0-929D-5D5F80CAE29D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Рекурсия 3", "Рекурсия 3\Рекурсия 3.csproj", "{7860ABA0-FCA4-4900-853E-4854AFF6DF2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{F19F62F9-1ABC-42E0-9E26-A34444D6484D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F19F62F9-1ABC-42E0-9E26-A34444D6484D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F19F62F9-1ABC-42E0-9E26-A34444D6484D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B7FE27-CB24-43B0-929D-5D5F80CAE29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B7FE27-CB24-43B0-929D-5D5F80CAE29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B7FE27-CB24-43B0-929D-5D5F80CAE29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B7FE27-CB24-43B0-929D-5D5F80CAE29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7860ABA0-FCA4-4900-853E-4854AFF6DF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7860ABA0-FCA4-4900-853E-4854AFF6DF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7860ABA0-FCA4-4900-853E-4854AFF6DF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7860ABA0-FCA4-4900-853E-4854AFF6DF2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
